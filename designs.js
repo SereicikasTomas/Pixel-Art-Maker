@@ -13,11 +13,10 @@ function makeGrid() {
   //Create rows
   for (var i = 0; i < rows; i++) {
     table.append('<tr></tr>');
-
-    //Create cols
-    for (var j = 0; j < cols; j++) {
-      table.children().append('<td></td>');
-    }
+  }
+  //Create cols
+  for (var j = 0; j < cols; j++) {
+    table.children().append('<td></td>');
   }
 
   //Listen for cell clicks
